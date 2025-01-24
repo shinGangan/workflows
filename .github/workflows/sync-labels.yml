@@ -6,6 +6,4 @@ on:
 jobs:
   # ref: https://github.com/shinGangan/.github/blob/main/.github/workflows/sync-labels.yml
   sync-labels:
-    uses: shinGangan/.github/.github/workflows/issue.yml@main
-    secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+    uses: shinGangan/.github/.github/workflows/sync-labels.yml@main
